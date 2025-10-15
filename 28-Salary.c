@@ -37,11 +37,13 @@ SALARY = U$ 2254.75
 #include <stdio.h>
 int main()
 {
-    double Employee_ID_Number, Employee_Work_Hours, Employee_Rate_Per_Hour;
-    scanf("%lf %lf %lf", &Employee_ID_Number, &Employee_Work_Hours, &Employee_Rate_Per_Hour);
+    int Employee_ID_Number;
+    double Employee_Work_Hours, Employee_Rate_Per_Hour;
+
+    scanf("%d %lf %lf", &Employee_ID_Number, &Employee_Work_Hours, &Employee_Rate_Per_Hour);
     double Employee_Salary = Employee_Work_Hours * Employee_Rate_Per_Hour;
 
-    printf("NUMBER = %.0lf\n", Employee_ID_Number);
+    printf("NUMBER = %d\n", Employee_ID_Number);
     printf("SALARY = U$ %.2lf\n", Employee_Salary);
 
     return 0;
