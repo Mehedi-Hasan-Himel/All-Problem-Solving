@@ -19,15 +19,15 @@ Inputcopy	Outputcopy
 */
 
 #include <stdio.h>
-#include <cmath>
 
-int main()
-{
+int main() {
     int x;
     scanf("%d", &x);
 
-    int Cubic_Of_X = pow(x, 3);
+    int cubic_of_x = x * x * x;
 
-    printf("%d\n", Cubic_Of_X);
+    printf("%d\n", cubic_of_x);
+
     return 0;
 }
+
