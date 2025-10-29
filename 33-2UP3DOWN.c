@@ -55,5 +55,19 @@ Copy
 Sample Output 3
 Copy
 No
-
 */
+
+
+#include <stdio.h>
+
+int main(){
+    int x,y;
+    scanf("%d %d",&x,&y);
+    if((x-3)<= y && y <=(x+2)){
+        printf("Yes\n");
+    }else{
+        printf("No");
+    }
+
+    return 0;
+}
