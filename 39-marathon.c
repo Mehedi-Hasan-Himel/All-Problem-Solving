@@ -71,10 +71,9 @@ chefinaTime took
 
 #include <stdio.h>
 int main(){
-
     int chefinaTime;
     scanf("%d", &chefinaTime);
-
+    
     if(chefinaTime < 3){
         printf("Gold\n");
     }else if(chefinaTime >= 3 && chefinaTime < 6){
