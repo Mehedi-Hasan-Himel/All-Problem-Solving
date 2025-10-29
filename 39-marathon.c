@@ -72,7 +72,6 @@ chefinaTime took
 #include <stdio.h>
 int main(){
 
-    int Kilo = 30;
     int chefinaTime;
     scanf("%d", &chefinaTime);
 
