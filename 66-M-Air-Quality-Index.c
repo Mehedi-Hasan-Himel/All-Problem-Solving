@@ -61,9 +61,9 @@ int main(){
     int X;
     scanf("%d", &X);
     if(X < 100){
-        printf("YES");
+        printf("YES\n");
     }else{
-        printf("NO");
+        printf("NO\n");
     }
 
     return 0;
