@@ -62,7 +62,7 @@ int main(){
     if(X>=8 && X <= 10){
         printf("YES");
     }else{
-        printf("NO");
+         printf("NO");
     }
 
 
